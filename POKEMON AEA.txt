@@ -37,7 +37,8 @@ def generar_menu(opciones, opcion_salida):
         opcion = leer_opcion(opciones)
         ejecutar_opcion(opcion, opciones)
         print()
-
+        
+#Menu principal separador
 def menu_principal():
     opciones = {
         '1': ('Opción 1: Listar pokemons por generación.', opcion1),
